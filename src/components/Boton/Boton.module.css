@@ -1,0 +1,31 @@
+.boton {
+    border: 1px solid var(--borde, #dee2e6);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background-color: var(--superficie);
+    color: var(--texto);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.boton:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.18);
+}
+
+.primario {
+    background-color: var(--primario);
+    border-color: var(--primario);
+    color: #fff;
+}
+
+.secundario {
+    background-color: transparent;
+    border-color: var(--primario);
+    color: var(--primario);
+}
+
+.activo {
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.35);
+    font-weight: 700;
+}
